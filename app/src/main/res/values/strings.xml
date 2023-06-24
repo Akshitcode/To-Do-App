@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">To-Do App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="create_new_task">Create new Task!\n</string>
+    <string name="negativeTitle">Cancel\n</string>
+    <string name="positiveTitle">Create</string>
+    <string name="enter_new_task">Enter new Task</string>
+    <string name="to_do_list">To-do List</string>
+    <string name="edit">Edit :</string>
+    <string name="save">Save</string>
+    <string name="discard">"Discard "</string>
+</resources>
