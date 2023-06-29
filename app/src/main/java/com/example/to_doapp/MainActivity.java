@@ -219,7 +219,9 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.T
         ArrayList<AllTaskClass> allTaskClasses1 = taskDataBase.returnAllTaskObjectObjects();
         binding.fab.setEnabled(true);
         taskDataBase.modifyTaskToFalse(allTaskClasses1);
-        taskRecyclerView.setAdapter(new RecyclerAdapter(allTaskClasses1, MainActivity.this));
+        TaskDataBase taskDataBase1 = new TaskDataBase(MainActivity.this);
+        ArrayList<AllTaskClass> allTaskClasses2 = taskDataBase1.returnAllTaskObjectObjects();
+        taskRecyclerView.setAdapter(new RecyclerAdapter(allTaskClasses2, MainActivity.this));
 
     }
 }
